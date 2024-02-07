@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+#idHead {
+    text-align: center;
+    background-color: firebrick;
+    margin: 0;
+    padding: 2px;
+}
+#idDMainHead {
+    text-align: center;
+    background-color: darkslateblue;
+}
+
+.clSubHead {
+    background-color: lightgrey;
+    text-align: center;
+    width: 25%;
+    float: left;
+    pad: 2px;
+}

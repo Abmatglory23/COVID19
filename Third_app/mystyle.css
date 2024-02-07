@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+#idTopHead {
+    background :firebrick ;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding : 6px;
+       }
+
+#idPara{
+    font-size: xx-large ;
+    color: black ;
+    
+}
+.clMainHead {
+    text-align: center;
+    background-color: darkslateblue;
+    width: 25%;
+    float: left;
+    pad: 8px;
+    position: relative;
+}
+
+.clMainHead ::after{
+    content: "";
+}
+.clSubHead {
+    background-color: lightgrey;
+    text-align: center;
+    width: 25%;
+    float: left;
+    pad: 12px;
+    position: relative;
+}
+
+*Styiling the State table*/
+
+#idDTable{
+    text-align:center;
+    margin: 20 px 20px ;
+}
+
+#idHtable{
+    
+    text-align:center;
+    background-color: lightpink;
+}
+table{
+    width: 50%;
+    padding: 15px 10px;
+    margin-left: 25%;
+    
+    text-align: center;
+    border-spacing: 0;
+    
+}
+tr:first-child{
+    background-color: red;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+th{
+    padding: 15px 0;
+    border: none;
+    border-spacing: 0;
+    
+}
+tr:nth-child(even){
+    background-color: #fafafa;
+     
+}
+tr:nth-child(odd){
+    background-color: salmon;
+    color: whitesmoke;
+}
+tr td{
+    padding: 15px 0;
+    
+    
+}

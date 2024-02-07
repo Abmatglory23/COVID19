@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+#idTopHead {
+    background :firebrick ;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding : 6px;
+       }
+
+#idPara{
+    font-size: xx-large ;
+    color: black ;
+    
+}
+.clMainHead {
+    text-align: center;
+    background-color: darkslateblue;
+    width: 25%;
+    float: left;
+    pad: 8px;
+    position: relative;
+}
+
+.clMainHead ::after{
+    content: "";
+}
+.clSubHead {
+    background-color: lightgrey;
+    text-align: center;
+    width: 25%;
+    float: left;
+    pad: 12px;
+    position: relative;
+}
+}
